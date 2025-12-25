@@ -22,13 +22,15 @@ Source: Twitter Training Dataset (public dataset for sentiment classification)
 
 Records: ~74,000
 
-#Columns:
+# 🧾 Columns
 
-Column	Description
-id	Tweet identifier
-entity	Topic or keyword
-sentiment	Sentiment label (Positive, Negative, Neutral, Irrelevant)
-text	Tweet text
+| Column     | Description                                                      |
+|-------------|------------------------------------------------------------------|
+| id          | Tweet identifier                                                 |
+| entity      | Topic or keyword                                                 |
+| sentiment   | Sentiment label (Positive, Negative, Neutral, Irrelevant)        |
+| text        | Tweet text                                                       |
+
 
 Class distribution: roughly balanced across four categories.
 
@@ -65,10 +67,13 @@ Improved: Logistic Regression
 
 Evaluation: Accuracy, F1-score, and Confusion Matrix.
 
- # Results
-Model	Accuracy	F1-Score
-Naive Bayes	≈ 0.70	≈ 0.69
-Logistic Regression	≈ 0.79	≈ 0.78
+# 📊 Results
+
+| Model               | Accuracy | F1-Score |
+|----------------------|-----------|-----------|
+| Naive Bayes          | ≈ 0.70    | ≈ 0.69    |
+| Logistic Regression  | ≈ 0.79    | ≈ 0.78    |
+
 
 # Key Insights:
 
