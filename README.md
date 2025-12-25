@@ -32,12 +32,16 @@ text	Tweet text
 
 Class distribution: roughly balanced across four categories.
 
- # Project Structure
- Sentiment-Analysis-Twitter/
+ # 📁 Project Structure
+
+```
+Sentiment-Analysis-Twitter/
 ├── 📄 Sentiment_Analysis_Twitter.ipynb   # Main Jupyter Notebook with all steps
 ├── 📄 twitter_training.csv               # Original dataset
 ├── 📄 report.docx                        # Final report (8–12 pages)
 └── 📄 README.md                          # Project documentation
+```
+
 
  # Methods and Tools
 
@@ -84,9 +88,12 @@ Apply hyperparameter tuning for Random Forest.
 
 Use SMOTE or class weighting if class imbalance increases.
 
- # Team Members
-Name	Role	Contribution
-Abay 1	Data preprocessing	Cleaning, feature engineering
-Shyngys 2	Modeling	ML training and evaluation
-Kaisar 3 )	Documentation	Report and presentation preparation
+# 👥 Team Members
+
+| Name      | Role              | Contribution                         |
+|------------|------------------|--------------------------------------|
+| Abay       | Data preprocessing | Cleaning, feature engineering        |
+| Shyngys    | Modeling          | ML training and evaluation           |
+| Kaisar     | Documentation     | Report and presentation preparation  |
+
  
