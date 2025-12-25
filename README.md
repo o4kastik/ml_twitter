@@ -1,10 +1,19 @@
-# Sentiment Analysis on Twitter
-Machine Learning Semester Project
- Project Overview
+#  Sentiment Analysis on Twitter  
+###  Machine Learning Semester Project
 
-This project performs sentiment classification of tweets into four categories:
-Positive, Negative, Neutral, and Irrelevant.
-The goal is to build and evaluate machine learning models that can automatically determine the emotional tone of tweets using Natural Language Processing (NLP) techniques.
+---
+
+##  Project Overview
+
+This project focuses on **sentiment classification of tweets** into four categories:  
+**Positive**, **Negative**, **Neutral**, and **Irrelevant**.  
+
+The main objective is to **develop and evaluate machine learning models** that can automatically detect the **emotional tone** of tweets using **Natural Language Processing (NLP)** techniques.  
+
+By analyzing real-world Twitter data, the project demonstrates how NLP can be applied to understand public opinions, trends, and reactions in social media platforms.
+
+---
+
 
  # Objective
 
