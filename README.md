@@ -1,4 +1,4 @@
-#Sentiment Analysis on Twitter
+# Sentiment Analysis on Twitter
 Machine Learning Semester Project
  Project Overview
 
@@ -6,7 +6,7 @@ This project performs sentiment classification of tweets into four categories:
 Positive, Negative, Neutral, and Irrelevant.
 The goal is to build and evaluate machine learning models that can automatically determine the emotional tone of tweets using Natural Language Processing (NLP) techniques.
 
- #Objective
+ # Objective
 
 Classify tweets into four sentiment categories.
 
@@ -16,7 +16,7 @@ Train and compare two ML models — Logistic Regression and Random Forest.
 
 Evaluate models using standard performance metrics (Accuracy, F1-score, Confusion Matrix).
 
- #Dataset
+ # Dataset
 
 Source: Twitter Training Dataset (public dataset for sentiment classification)
 
@@ -32,7 +32,7 @@ text	Tweet text
 
 Class distribution: roughly balanced across four categories.
 
- #Project Structure
+ # Project Structure
  Sentiment-Analysis-Twitter/
 │
 ├── 📄 Sentiment_Analysis_Twitter.ipynb   # Main Jupyter Notebook with all steps
@@ -40,14 +40,14 @@ Class distribution: roughly balanced across four categories.
 ├── 📄 report.docx                        # Final report (8–12 pages)
 └── 📄 README.md                          # Project documentation
 
- #Methods and Tools
+ # Methods and Tools
 
 Programming Language: Python 3
 Libraries Used:
 pandas, numpy, matplotlib, seaborn, wordcloud,
 scikit-learn, re
 
-#Pipeline Overview:
+# Pipeline Overview:
 
 Data Cleaning: Remove links, mentions, punctuation, lowercase text.
 
@@ -63,12 +63,12 @@ Improved: Logistic Regression
 
 Evaluation: Accuracy, F1-score, and Confusion Matrix.
 
- #Results
+ # Results
 Model	Accuracy	F1-Score
 Naive Bayes	≈ 0.70	≈ 0.69
 Logistic Regression	≈ 0.79	≈ 0.78
 
-#Key Insights:
+# Key Insights:
 
 Both models successfully learned to distinguish between 4 sentiment types.
 
