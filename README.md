@@ -34,7 +34,6 @@ Class distribution: roughly balanced across four categories.
 
  # Project Structure
  Sentiment-Analysis-Twitter/
-│
 ├── 📄 Sentiment_Analysis_Twitter.ipynb   # Main Jupyter Notebook with all steps
 ├── 📄 twitter_training.csv               # Original dataset
 ├── 📄 report.docx                        # Final report (8–12 pages)
@@ -44,8 +43,7 @@ Class distribution: roughly balanced across four categories.
 
 Programming Language: Python 3
 Libraries Used:
-pandas, numpy, matplotlib, seaborn, wordcloud,
-scikit-learn, re
+pandas, numpy, matplotlib, seaborn,scikit-learn, re
 
 # Pipeline Overview:
 
@@ -76,7 +74,7 @@ Logistic Regression slightly outperformed Naive Bayes on accuracy and F1-score.
 
 Most confusion occurred between “Neutral” and “Irrelevant” tweets — they often contain similar tone.
 
- Future Work
+ # Future Work
 
 Implement deep learning models (BERT, RoBERTa) for improved semantic understanding.
 
@@ -86,9 +84,9 @@ Apply hyperparameter tuning for Random Forest.
 
 Use SMOTE or class weighting if class imbalance increases.
 
- #Team Members
+ # Team Members
 Name	Role	Contribution
-Student 1	Data preprocessing	Cleaning, feature engineering
-Student 2	Modeling	ML training and evaluation
-Student 3 )	Documentation	Report and presentation preparation
+Abay 1	Data preprocessing	Cleaning, feature engineering
+Shyngys 2	Modeling	ML training and evaluation
+Kaisar 3 )	Documentation	Report and presentation preparation
  
